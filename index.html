@@ -766,8 +766,8 @@
 
         </div>
         <div style="margin-top:1.1rem">
-          <div class="progress-row"><div class="progress-top"><span class="progress-name">Python</span><span class="progress-pct">95%</span></div><div class="progress-track"><div class="progress-fill" data-width="0.95"></div></div></div>
-          <div class="progress-row"><div class="progress-top"><span class="progress-name">Django</span><span class="progress-pct">88%</span></div><div class="progress-track"><div class="progress-fill" data-width="0.88"></div></div></div>
+          <div class="progress-row"><div class="progress-top"><span class="progress-name">Django</span><span class="progress-pct">95%</span></div><div class="progress-track"><div class="progress-fill" data-width="0.95"></div></div></div>
+          <div class="progress-row"><div class="progress-top"><span class="progress-name">Node</span><span class="progress-pct">80%</span></div><div class="progress-track"><div class="progress-fill" data-width="0.88"></div></div></div>
         </div>
       </div>
       <div class="skill-category">
@@ -782,7 +782,7 @@
         </div>
         <div style="margin-top:1.1rem">
           <div class="progress-row"><div class="progress-top"><span class="progress-name">SKLearn</span><span class="progress-pct">82%</span></div><div class="progress-track"><div class="progress-fill" data-width="0.82"></div></div></div>
-          <div class="progress-row"><div class="progress-top"><span class="progress-name">GenAI</span><span class="progress-pct">80%</span></div><div class="progress-track"><div class="progress-fill" data-width="0.90"></div></div></div>
+          <div class="progress-row"><div class="progress-top"><span class="progress-name">GenAI</span><span class="progress-pct">70%</span></div><div class="progress-track"><div class="progress-fill" data-width="0.90"></div></div></div>
         </div>
       </div>
       <div class="skill-category">
@@ -905,6 +905,24 @@
     </div>
   </div>
 
+  <div class="project-card reveal">
+    <div class="project-img" style="background-image: url('images/bazario.png');" role="img" aria-label="bazario"></div>
+    <div class="project-body">
+      <div class="project-meta">
+        <span class="project-type">ecommerce</span>
+        <div class="project-links">
+          <a href="https://github.com/dipesh867/ecommerce" class="project-link" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+          <a href="https://github.com/dipesh867/ecommerce" class="project-link" title="Live Demo" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+      <div class="project-title">Bazario</div>
+      <div class="project-desc">A feature-rich e-commerce site with a Seller option,dynamic and variant-wise pricing, a sales dashboard and essential shopping features for a seamless buying and selling experience.
+</div>
+      <div class="project-tech">
+        <span class="tech-tag">Node JS</span><span class="tech-tag">Express</span><span class="tech-tag">React</span><span class="tech-tag">MongoDB</span><span class="tech-tag">Docker</span>
+      </div>
+    </div>
+  </div>
 
 </div>
   </div>
@@ -922,7 +940,7 @@
       <div class="contact-links">
         <a href="https://github.com/dipesh867" class="contact-link"><span><i class="fa-brands fa-square-github"></i></span> GitHub</a>
         <a href="https://www.linkedin.com/in/dipesh8667/" class="contact-link"><span><i class="fa-brands fa-linkedin"></i></span> Linkedin</a>
-        <a href="pdf/resume_web.pdf" target="_blank" class="contact-link"><span><i class="fa-solid fa-file-pdf"></i></span> Resume.pdf</a>
+        <a href="pdf/resume.pdf" target="_blank" class="contact-link"><span><i class="fa-solid fa-file-pdf"></i></span> Resume.pdf</a>
         <a href="mailto:dipeshghimire363@gmail.com" class="contact-link"><span><i class="fa-solid fa-square-envelope"></i></span> dipeshghimire363@gmail.com</a>
         <a href="tel:+9779745273766" class="contact-link"><span><i class="fa-solid fa-square-phone"></i></span> +977 9745273766</a>
       </div>
@@ -1032,8 +1050,8 @@ function countUp(el, end, suffix = '+', duration = 1800) {
 }
 const statsObserver = new IntersectionObserver(entries => {
   if (entries[0].isIntersecting) {
-    countUp(document.getElementById('ctr-projects'), 10);
-    countUp(document.getElementById('ctr-years'), 3);
+    countUp(document.getElementById('ctr-projects'), 7);
+    countUp(document.getElementById('ctr-years'),2);
     countUp(document.getElementById('ctr-commits'), 500);
     statsObserver.disconnect();
   }
